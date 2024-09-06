@@ -51,7 +51,7 @@ Data originates from 3D PET/CT images of the HEad and neCK TumOR segmentation an
 
 ## Data Requirements
 The notebook expects the following CSV files to be uploaded:
-1. **Feature data**: A CSV file containing radiomics features for each patient.
-2. **Outcome data**: A CSV file containing patient outcomes for classification (e.g., `hecktor2022_HPV_outcomesBalanced.csv`).
-3. **Patient split**: A CSV file defining the training and test set split (e.g., `patient_split.csv`).
-4. **Clinical data**: A CSV file containing clinical information (e.g., `hecktor2022_clinicalFeatures.csv`).
+1. **Feature data**: CSV files containing radiomics features for each patient, each ROI (GTVp and GTVn) and each modality (PET and CT). Available in the `data/`
+2. **Outcome data**: A CSV file containing patient outcomes for classification (e.g., `hecktor2022_HPV_outcomesBalanced.csv`, available in `data/`).
+3. **Patient split**: A CSV file defining the training and test set split (e.g., `patient_split.csv`, available in `data/`).
+4. **Clinical data**: A CSV file containing clinical information (e.g., `hecktor2022_clinicalFeatures.csv`, not publicly available).
